@@ -1,0 +1,6 @@
+@skymoo_HostAddress = http://localhost:5272
+
+GET {{skymoo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

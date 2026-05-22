@@ -1,0 +1,9 @@
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.csproj.AssemblyReference.cache
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/rpswa.dswa.cache.json
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.AssemblyInfoInputs.cache
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.AssemblyInfo.cs
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.csproj.CoreCompileInputs.cache
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/LP3-Semana4-/skymoo/obj/Debug/net10.0/skymoo.sourcelink.json

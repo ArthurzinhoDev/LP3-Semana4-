@@ -1,5 +1,4 @@
-# Código do arquivo Program.cs
-using skymoon.Models;
+using skymoo.Models;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +19,7 @@ var app = builder.Build();
 
 app.UseCors("AllowAll");
 
-Funcionario[] funcionarios = new Funcionario[100];
+Funcionario[] listaFuncionarios = new Funcionario[100];
 int totalFuncionarios = 0;
 
 app.MapGet("/", () =>
@@ -28,29 +27,31 @@ app.MapGet("/", () =>
     return Results.Ok("API SkyMoon funcionando com sucesso!");
 });
 
- app.MapPost("/funcionario", (JsonElement body) =>
-{
-    
-});
-
 app.MapPost("/funcionario", (JsonElement body) =>
-{
-    Funcionario funcionario = new Funcionario();
+{     
+    Random random = new();
 
-    // dados
+    Funcionario funcionario = new Funcionario ();
 
-    funcionarios[totalFuncionarios] = funcionario;
+
+    funcionario.Id = random.Next(1000,9999);
+    funcionario.Nome = body.GetProperty("nome").GetString();
+    funcionario.Idade = body.GetProperty("idade").GetInt32();
+    funcionario.Cargo = body.GetProperty("cargo").GetString();
+    funcionario.Departamento = body.GetProperty("departamento").GetString();
+    funcionario.Salario = body.GetProperty("salario").GetDouble();
+
+
+    listaFuncionarios[totalFuncionarios] = funcionario;
     totalFuncionarios++;
 
-    return Results.Ok(
-        new
-        {
-            funcionario
+    return Results.Ok( new {
+    funcionario
         }
     );
 });
-
-/*app.MapGet("/funcionario", () =>
+/*
+app.MapGet("/funcionario", () =>
 {
     
 });
@@ -78,6 +79,6 @@ app.MapGet("/funcionario/departamento/busca", (string departamento) =>
 app.MapGet("/funcionario/busca", (string nome) =>
 {
    
-}); */
-
+});
+*/
 app.Run();

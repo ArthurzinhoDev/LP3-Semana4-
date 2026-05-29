@@ -1,9 +1,7 @@
-# Código do arquivo Models/Funcionario.cs
-namespace skymoon.Models;
+namespace skymoo.Models;
 
 public class Funcionario {
     
-    // atributos
     private int id;
     private string? nome;
     private int idade;

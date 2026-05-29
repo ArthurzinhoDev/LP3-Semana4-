@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("skymoo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a56bddf64493b2c395086f4a3ca593ae90b26c4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d21921e896af7433a561f285f0102e280dcc171")]
 [assembly: System.Reflection.AssemblyProductAttribute("skymoo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("skymoo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

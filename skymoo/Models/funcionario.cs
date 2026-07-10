@@ -1,4 +1,4 @@
-namespace skymoo.Models;
+namespace skymoon.Models;
 
 public class Funcionario {
     
